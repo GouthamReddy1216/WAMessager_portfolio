@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 
 ## 🚀 Live Demo
 
-You can view the live project here: [Personal Portfolio](https://wamessager-portfolio.onrender.com/)
+You can view the live project here: https://wamessager-portfolio.onrender.com/
 
 ## 🛠️ Technologies Used
 
