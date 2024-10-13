@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goutham Reddy Somu - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h1>About Me</h1>
+      <div class="about-content">
+        <img src="./public/Passphoto20kb.JPEG" alt="Goutham Reddy Somu">
+        <p>I am Goutham, a web developer with 1.5 to 2 years of hands-on experience in JavaScript, React, Express, Node.js, MySQL, MongoDB, HTML, and CSS. Throughout this time, I've completed and deployed numerous projects that showcase my technical skills. I bring strong problem-solving abilities in data structures and algorithms, paired with a solid understanding of object-oriented programming principles. My adaptability and experience collaborating in dynamic, team-based environments make me a well-rounded developer ready to contribute to complex development projects.
+        </p>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="grid-container">
+
+        <div class="card">
+            <img src="./public/address_webapp.png" alt="Project 1">
+            <div class="card-content">
+              <h3>Address Storage Full Stack WebApp</h3>
+              <p>A Full stack WebApp where user can store address developed using ReactJS, MySQL, NodeJS, ExpressJS</p>
+              <div class="card-links">
+                <a href="https://smoketrees-assesment.onrender.com/" class="btn btn-live" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="https://github.com/GouthamReddy1216/SmokeTrees_Assesment" class="btn btn-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./public/sudoku_solver.png" alt="Project 2">
+            <div class="card-content">
+              <h3>Sudoku Solver</h3>
+              <p>A real time sudoku solver APP made using ReactJS, HTML, CSS that give a real time animation of backtracking steps and solve the sudoku</p>
+              <div class="card-links">
+                <a href="https://sudoku-solver-iaj3.onrender.com/" class="btn btn-live" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="https://github.com/GouthamReddy1216/Sudoku-solver" class="btn btn-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./public/movie_search.png" alt="Project 3">
+            <div class="card-content">
+              <h3>Movie Search full stack WebApp</h3>
+              <p>A simple web app developed using react,MySQL stack that used IMBD API to extract data about movies then display the related movies along with their respective links, also MySQL is used to store the search data.</p>
+              <div class="card-links">
+                <a href="https://practice-production-468d.up.railway.app/" class="btn btn-live" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="https://github.com/GouthamReddy1216/practice" class="btn btn-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./public/portfolio_website.png" alt="Project 3">
+            <div class="card-content">
+              <h3>Portfolio website</h3>
+              <p>portfolio website from scratch using HTML, CSS, React</p>
+              <div class="card-links">
+                <a href="https://portfolio-k4bw.onrender.com/" class="btn btn-live" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="https://github.com/GouthamReddy1216/prortfolio" class="btn btn-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name-input" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email-input" name="email" required>
+      
+        <label for="message">Message:</label>
+        <textarea id="message-input" name="message" required></textarea>
+      
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="social-media">
+      <a href="https://github.com/GouthamReddy1216/"><img src="./public/github_icon.png" alt="Github"></a>
+      <a href="https://portfolio-k4bw.onrender.com/"><img src="./public/wesite_icon.png" alt="Website"></a>
+      <a href="https://www.linkedin.com/in/goutham-reddy-839245228/"><img src="./public/linkdein_icon.png" alt="LinkedIn"></a>
+    </div>
+    <p>&copy; 2024 Goutham Reddy Somu</p>
+  </footer>
+</body>
+</html>
